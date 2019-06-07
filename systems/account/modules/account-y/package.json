@@ -1,0 +1,16 @@
+{
+  "name": "account-y",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "azu",
+  "license": "MIT",
+  "dependencies": {
+    "account-x": "file:../account-x",
+    "shared-pkg-b": "file:../../../../shared/nodejs/packages/shared-pkg-b"
+  }
+}
